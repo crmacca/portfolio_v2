@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.darkGrid {
+	background-image:linear-gradient(90deg, transparent 12%,rgba(255, 255, 255, .2) 10%, rgba(255, 255, 255, .2) 12%, transparent 13%, transparent 29%);
+	height:100%;
+	background-size:200px 10px;
+}
+.lightGrid {
+	background-image:linear-gradient(90deg, transparent 12%,rgba(16, 16, 16, 0.2) 10%, rgba(16, 16, 16, 0.2) 12%, transparent 13%, transparent 29%);
+	height:100%;
+	background-size:200px 10px;
+}
+.dark {
+	background-color: #161212;
+}
+.threeDText {
+	text-shadow: rgba(0, 0, 0, 0.483) 1px 1px 10px, rgb(255, 255, 255) -0.5rem 0.5rem;
+}
+.wave {
+	animation-name: wave-animation;
+	/* Refers to the name of your @keyframes element below */
+	animation-duration: 4s;
+	/* Change to speed up or slow down */
+	animation-iteration-count: infinite;
+	/* Never stop waving :) */
+	transform-origin: 70% 70%;
+	/* Pivot around the bottom-left palm */
+	display: inline-block;
+}
+@keyframes wave-animation {
+	0% {
+		transform: rotate( 0.0deg) 
+}
+	10% {
+		transform: rotate(14.0deg) 
+}
+	/* The following five values can be played with to make the waving more or less extreme */
+	20% {
+		transform: rotate(-8.0deg) 
+}
+	30% {
+		transform: rotate(14.0deg) 
+}
+	40% {
+		transform: rotate(-4.0deg) 
+}
+	50% {
+		transform: rotate(10.0deg) 
+}
+	60% {
+		transform: rotate( 0.0deg) 
+}
+	/* Reset for the last half to pause */
+	100% {
+		transform: rotate( 0.0deg) 
+}
+}
+.marqueeText {
+	letter-spacing: 1px;
+	font-size: 1.5rem;
+}
+.spin {
+	animation: spin 5s linear infinite;
+}
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+body {
+    cursor: none;
+}

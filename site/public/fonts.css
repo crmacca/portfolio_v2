@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Nata';
+    src: url('./fonts/Nata.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Glorify';
+    src: url('./fonts/Glorify.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Skeina';
+    src: url('./fonts/Skeina.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('./fonts/Coolvetica.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maelstrom';
+    src: url('./fonts/Maelstrom.ttf') format('truetype');
+}
