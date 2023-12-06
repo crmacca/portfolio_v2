@@ -251,7 +251,7 @@ const Landing = () => {
         <section ref={workscontainer} className='flex flex-col md:my-[25vh]'>
           <div className='px-5 md:mx-auto md:max-w-[30vw] w-full py-[]'>
             <h1 className='text-start text-[5vh] font-maelstrom my-5'>INTERESTED?</h1>
-            <h3 className='text-end font-glorify text-[2vh]'>I DON'T ANY PUBLIC PROJECTS YET, BUT YOU CAN CHECK OUT SOME OF MY AND MY MATES PROJECTS BELOW</h3>
+            <h3 className='text-end font-glorify text-[2vh]'>THIS WEBSITE IS STILL UNDER CONSTRUCTION, MY PROJECTS WILL APPEAR HERE SOON.</h3>
           </div>
           <div class="mt-[10vh] grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
             <section ref={works1image} class="flex justify-center items-center relative">
