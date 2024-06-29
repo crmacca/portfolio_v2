@@ -89,6 +89,7 @@ const Landing = () => {
         }
       );
 
+     
       gsap.timeline().to(works1image.current, {
         x: '-100%',
         duration: 0
@@ -98,7 +99,8 @@ const Landing = () => {
         x: '100%',
         duration: 0
       })
-
+      
+      /*
       gsap.timeline().to(works2text.current, {
         x: '-100%',
         duration: 0
@@ -108,6 +110,7 @@ const Landing = () => {
         x: '100%',
         duration: 0
       })
+       */
 
       tl.fromTo(scrollDownRef.current, {
         y: '30vh'
@@ -268,6 +271,7 @@ const Landing = () => {
               <p className='text-[2rem] font-skeina text-clip'>This was my first portfolio project & my first time being slightly ambitious with my limits.<br/><br/>This project taught me how to use <u><a href='https://particles.js.org/' target="_blank" className='text-white'>particles.js</a></u> and was my first proper use of animations.</p>
             </section>
           </div>
+          {/*
           <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 mt-[15vh]'>
             <section ref={works2text} className='justify-center items-center text-end mr-10'>
               <h1 class="text-[3rem] font-glorify">
@@ -285,6 +289,7 @@ const Landing = () => {
               </div>
             </section>
           </div>
+          */}
         </section>
       </div>
     </div>
