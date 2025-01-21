@@ -37,7 +37,7 @@ const Navbar = () => {
       return (
         <div className='navbar  flex flex-col md:flex-row items-center gap-3 border-white px-5 py-3 mx-5'>
           <button className='font-skeina tracking-wider text-2xl navbar-button select-none'>
-            CHRISTIAN MCNAMARA
+            CHRIS
           </button>
           <button className='hidden md:block ml-auto font-coolvetica text-2xl navbar-button'>
             about
